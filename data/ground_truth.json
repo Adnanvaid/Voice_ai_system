@@ -1,0 +1,9 @@
+[
+  {
+    "audio": "data/audio.wav",
+    "ground_truth": {
+      "transcript": "What is machine learning",
+      "response": "Machine learning is a method where computers learn patterns from data."
+    }
+  }
+]
