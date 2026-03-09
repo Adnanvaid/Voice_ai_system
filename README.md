@@ -18,24 +18,33 @@ Docker
 
 Sentence Transformers
 
-System Architecture
+
+# System Architecture
 
 Pipeline flow:
+
 Audio Input
+
      ↓
 Speech Recognition (Whisper)
+
      ↓
 Transcribed Text
+
      ↓
 Prompt to LLM (Llama3 via Ollama)
+
      ↓
 Generated Response
+
      ↓
 Evaluation Metrics
+
      ↓
 JSON Results Output
 
-valuation Metrics
+
+# valuation Metrics
 
 The system evaluates model performance using the following metrics:
 
@@ -55,7 +64,8 @@ Latency
 
 Measures the total response time of the pipeline.
 
-Running the Project
+
+# Running the Project
 
 Install dependencies:
 pip install -r requirements.txt
@@ -70,7 +80,8 @@ ollama pull llama3
 Run the pipeline
 python main.py
 
-Key Features
+
+# Key Features
 
 Speech-to-text processing
 
